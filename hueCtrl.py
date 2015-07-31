@@ -2,7 +2,7 @@ from phue import Bridge
 from PIL import Image, ImageGrab
 import math, time, random, os
 
-BRIDGE_IP          = '10.0.1.2'             #the local bridge IP.
+BRIDGE_IP          = '192.168.1.126'             #the local bridge IP.
 LIGHTS             = []                     #my lights, allows for multiple lights though.
 BUFF               = 7.5                    #buffer for the similar colors test.
 BRIGHTNESS_PERCENT = 1                      #global brightness modifier to give a lower maximum brightness.

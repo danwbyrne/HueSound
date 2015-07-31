@@ -36,7 +36,7 @@ def arduino_soundlight():
     
     print "Starting, use Ctrl+C to stop"
     try:
-        light  = hueCtrl.Light(ID=10)
+        light  = hueCtrl.Light(ID=3)
         while True:
             data  = stream.read(chunk)
             rms   = audioop.rms(data, 2)
